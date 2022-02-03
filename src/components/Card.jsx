@@ -25,16 +25,15 @@ const Card = ({
       }
       id={backgroundName[background]}
     >
-      {/* <div className="h-1/5 w-full rounded-t-lg" id={backgroundName[background]} /> */}
       <img
         src={image}
         alt={`${activity} image`}
-        className="absolute -top-[0.5rem] right-3 z-0 w-16 h-16"
+        className="absolute -top-2 right-3 z-0 w-18 h-18"
       />
       <div className="h-4/5 flex flex-col justify-between rounded-2xl card-bg p-6 z-20 cursor-pointer">
         <div className="flex flex-row justify-between items-center">
           <h1 className="text-white font-semibold">{activity}</h1>
-          <div className="inline-block">
+          <div className="">
             <img src={Period} className="cursor-pointer" />
           </div>
         </div>
